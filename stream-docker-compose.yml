@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+    
+  server:
+    image: "stream_server:latest"
+    ports:
+      - "5001:5001"
+    command:
+      - /app/StreamingServer
